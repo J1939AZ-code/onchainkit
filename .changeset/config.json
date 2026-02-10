@@ -1,11 +1,8 @@
 {
-  "$schema": "https://unpkg.com/@changesets/config@3.1.1/schema.json",
-  "changelog": ["./formatter.js", { "repo": "coinbase/onchainkit" }],
+  "$schema": "https://unpkg.com/@changesets/config/schema.json",
+  "changelog": "@changesets/cli/changelog",
   "commit": false,
-  "fixed": [["@coinbase/onchainkit", "create-onchain"]],
-  "linked": [],
   "access": "restricted",
   "baseBranch": "main",
-  "updateInternalDependencies": "patch",
-  "ignore": ["miniapp-manifest-generator", "minikit-example", "template-minikit-nextjs", "template-onchainkit-nextjs"]
+  "updateInternalDependencies": "patch"
 }
